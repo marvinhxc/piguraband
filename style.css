@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 375px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 98vh;
+  color: white;
+}
+header a {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2em;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 4rem;
+  margin-bottom: 0.3em;
+}
+
+h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+h4 {
+  margin-bottom: 1em;
+  font-size: 2rem;
+  color: gray;
+  text-transform: uppercase;
+}
+
+section {
+  padding: 3em;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3em;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.header-text {
+  text-align: center;
+  padding: 15em 35em;
+}
+
+.music {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 3em;
+  border-radius: 10px;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 2em;
+}
+
+.first-album {
+  background-image: linear-gradient(
+    to right top,
+    #8ba7d3,
+    #75bfdc,
+    #7bd3d3,
+    #a2e2c1,
+    #d7ecb4
+  );
+  padding: 3em;
+  border-radius: 10px;
+}
+
+.first-album p {
+  margin: 1em 0;
+  color: white;
+}
+
+.first-album a:hover {
+  text-decoration: underline;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  gap: 20em;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  color: white;
+}
+
+.bottom-section a {
+  color: white;
+}
+
+.bottom-section a:hover {
+  text-decoration: underline;
+}
+
+.about-us__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.contact-wrapper p {
+  font-size: 0.8rem;
+}
